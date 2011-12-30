@@ -6,7 +6,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'gravatar_image_tag'
 gem 'json'
 
 # Gems used only for assets and not required
@@ -18,17 +18,15 @@ group :assets do
 end
 
 group :development do
-      gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', '2.6.1'
+ # gem 'annotate', '2.4.0'
 end
 
 group :test do
       gem 'rspec-rails', '2.6.1'
       gem 'webrat', '0.7.1'
-end
-
-group :test do
-      gem 'rspec-rails', '2.6.1'
-      gem 'spork', '0.9.0.rc8'
+	  gem 'spork', '0.9.0.rc8'
+	  gem 'factory_girl_rails', '1.0'
 end
 
 gem 'jquery-rails'
