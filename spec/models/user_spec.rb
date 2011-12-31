@@ -10,7 +10,8 @@ describe User do
       :password_confirmation => "foobar"
     }
  end
-
+end
+=begin
  it "should create a new instance given valid attributes" do
     User.create!(@attr)
  end
@@ -127,3 +128,4 @@ describe "password validations" do
     end
   end
 end
+=end
